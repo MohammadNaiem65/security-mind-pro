@@ -7,6 +7,9 @@ export default {
 				roboto: ['Roboto', 'sans-serif'],
 				'roboto-slap': ['Roboto Slab', 'serif'],
 			},
+			colors: {
+				primary: '#7AD43B',
+			},
 		},
 	},
 	plugins: [],
