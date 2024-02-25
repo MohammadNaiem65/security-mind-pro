@@ -7,7 +7,9 @@ import { logo } from '../assets';
 export default function Navbar() {
 	return (
 		<nav className='h-[4.375rem] flex justify-between items-center'>
-			<img className='w-44' src={logo} alt='Security Mind Pro Logo' />
+			<Link to='https://securitymindpro.com/' className='cursor-pointer'>
+				<img className='w-44' src={logo} alt='Security Mind Pro Logo' />
+			</Link>
 			<div className='font-roboto text-[14px] flex items-center gap-x-[1.5rem] uppercase'>
 				<Link
 					to='https://securitymindpro.com/'
